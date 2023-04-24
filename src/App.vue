@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
+import TheNavigation from '@/components/TheNavigation.vue'
 </script>
 
 <template>
   <header>
     <div class="">
-      <TheHeader/>
+      <TheNavigation/>
       <nav>
 
         <RouterLink to="/">Home</RouterLink>
