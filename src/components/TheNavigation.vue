@@ -8,7 +8,7 @@
           href="https://mineiros.io"
           class="font-ubuntu text-xl font-bold text-gray-100 md:text-2xl hover:text-red-400"
         >
-          <img src="../assets/mineiros.png" alt="" />
+          <img src="@/assets/mineiros.png" alt="" />
         </a>
         <!-- Mobile menu button -->
         <div @click="toggleNav" class="flex md:hidden">
@@ -85,7 +85,7 @@
     </nav>
   </div>
 </template>
-<script>
+<script lang="ts">
 import { ref } from "vue";
 export default {
   setup() {
