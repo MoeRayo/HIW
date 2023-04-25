@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-7 text-slate-700">
+  <div class="mt-7 text-slate-700 ">
     <section class="py-25 relative">
       <div class="max-w-7xl px-4 sm:px-2 md:mx-auto">
         <div class="lg:w-xl text-center lg:text-left">
